@@ -1,0 +1,22 @@
+.header{
+    min-height: 100dvh;
+    background-size: cover;
+    background-position: center;
+    color: var(--text-color);
+    h1{
+        font-size: 2.5rem;
+        line-height: 3.4rem;
+        font-weight: 600;
+    }
+    .btns a{
+        color: var(--text-color);
+        text-transform: capitalize;
+        padding: .6rem 1rem;
+        border: 1px solid var(--text-color);
+        border-radius: 5px;
+    }
+    .btns .btn-color{
+        border: transparent;
+        background-color: var(--first-color);
+    }
+}

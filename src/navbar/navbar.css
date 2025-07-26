@@ -1,0 +1,24 @@
+.navbar {
+  transition: all .4s;
+  .my-link{
+    padding: 0;
+    margin: 1rem .6rem;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    color: #000;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  .btn-close:focus{
+    box-shadow: none;
+  }
+
+}
+.my-bg{
+  background-color: var(--first-color);
+}
+
+.navbar-nav .nav-link.active{
+  color: #7b7b7b;
+}

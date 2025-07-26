@@ -1,0 +1,39 @@
+.footer {
+  background-color: var(--second-clor);
+  color: var(--text-color);
+  p {
+    color: #b7b6b6;
+    line-height: 25px;
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  ul .footer-link {
+    font-size: 1rem;
+    color: #b7b6b6;
+    text-decoration: none;
+  }
+  input,button{
+    padding: .4rem .5rem;
+    outline: none;
+     background-color: #1F2937;
+     border: 0;
+     border-radius: 5px;
+     color: var(--text-color);
+  }
+  .form-control:focus{
+    box-shadow: none;
+    background-color: #1F2937;
+    color: var(--text-color);
+  }
+  button{
+    background-color: var(--first-color);
+    color: var(--text-color);
+    margin-left: .5rem;
+  }
+  ::placeholder{
+    color: #b7b6b6;
+  }
+}

@@ -1,0 +1,31 @@
+@media screen and (width >=768px) {
+  /* header */
+  .header{
+    h1{
+      font-size: 3rem;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 60px;
+    }
+  }
+}
+@media screen and (width >=992px) {
+  /* nav bar */
+  .navbar .my-link {
+    color: var(--text-color);
+  }
+  /* header */
+  .header{
+    h1{
+      font-size: 4rem;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 90px;
+    }
+  }
+  /* contact */
+  .my-form{
+    width: 60% ;
+    margin: 0 auto;
+  }
+}
