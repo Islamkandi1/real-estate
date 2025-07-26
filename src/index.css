@@ -65,4 +65,5 @@ a {
   right: 20px;
   border-radius: 15px;
   transition: all .4s;
+  z-index: 99;
 }
